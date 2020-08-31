@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42387" started-at="2020-08-31T12:55:08Z" finished-at="2020-08-31T12:55:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42387" started-at="2020-08-31T12:55:08Z" finished-at="2020-08-31T12:55:51Z">
+      <class name="FuntionalTestcases.Sprint1">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba]" name="startReport" is-config="true" duration-ms="184" started-at="2020-08-31T18:25:08Z" finished-at="2020-08-31T18:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba]" name="LaunchBrowser" is-config="true" duration-ms="7363" started-at="2020-08-31T18:25:08Z" finished-at="2020-08-31T18:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="KPItest()[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba]" name="KPItest" duration-ms="33772" started-at="2020-08-31T18:25:16Z" finished-at="2020-08-31T18:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KPItest -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba]" name="Closebrowser" is-config="true" duration-ms="1047" started-at="2020-08-31T18:25:50Z" finished-at="2020-08-31T18:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-31T18:25:51Z" finished-at="2020-08-31T18:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KPItest status=SUCCESS method=Sprint1.KPItest()[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:FuntionalTestcases.Sprint1@2a2d45ba]" name="endReport" is-config="true" duration-ms="372" started-at="2020-08-31T18:25:51Z" finished-at="2020-08-31T18:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- FuntionalTestcases.Sprint1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

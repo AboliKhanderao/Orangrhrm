@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="Analyzer.transfrmr"/>
+  </listeners>
+  <test name="Test(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+    <classes>
+      <class name="FuntionalTestcases.Sprint1">
+        <methods>
+          <include name="KPItest"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="Closebrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- FuntionalTestcases.Sprint1 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

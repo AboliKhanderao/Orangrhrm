@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <parameter name="browser" value="Ie"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <test name="Internet Explorer Test(failed)">
+    <parameter name="browser" value="Ie"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+    <classes>
+      <class name="FuntionalTestcases.Sprint1">
+        <methods>
+          <include name="KPItest"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="Closebrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- FuntionalTestcases.Sprint1 -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
